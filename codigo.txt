@@ -1,0 +1,13 @@
+mkdir parcial2
+cd parcial2
+mv  ~/Downloads/proyecto_bioinformatica.docx .
+git remote add origin https://github.com/parcial2bioinformatica/Parcial2_Alvarado_Torres_Salazar.git
+git remote -v origin	https://github.com/parcial2bioinformatica/Parcial2_Alvarado_Torres_Salazar.git (fetch)
+git push origin master 
+Username for 'https://github.com': parcial2bioinformatica
+Password for 'https://parcial2bioinformatica@github.com': parcial12345
+git add proyecto_bioinformatica.docx
+git commit -m  "parcial2_Alvarado_Torres_Salazar"
+git status
+
+
